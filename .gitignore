@@ -1,0 +1,7 @@
+﻿venv/
+__pycache__/
+*.pyc
+.env
+artifacts/*.pkl
+data/raw/*.csv.csv
+data/raw/credit_data*

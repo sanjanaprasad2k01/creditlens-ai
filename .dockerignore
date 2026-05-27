@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Development
+.git/
+.gitignore
+.env
+*.ipynb
+notebooks/
+tests/
+
+# Data — don't ship raw data in container
+data/raw/
+
+# Streamlit — API container only needs FastAPI
+app/main.py
+
+# Documentation
+README.md
+MODEL_CARD.md
+*.png
+*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
